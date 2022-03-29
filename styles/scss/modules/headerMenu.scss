@@ -1,0 +1,36 @@
+.header {
+    display: none;
+    width: 1080px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+
+    .left {
+        list-style: none;
+        display: flex;
+
+        a {
+            padding: 10px 15px;
+            display: inline-block;
+            color: #3A3A3A;
+            font-size: 14px;
+        }
+    }
+    
+    .right {
+        list-style: none;
+        display: flex;
+
+        a {
+            padding: 10px 15px;
+            display: inline-block;
+            color: #3A3A3A;
+            font-size: 14px;
+            transition: all ease 0.3s;
+
+            &:hover {
+                color: #BCBCBC;
+            }
+        }
+    }
+}
